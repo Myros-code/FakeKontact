@@ -1,0 +1,9 @@
+
+.profile__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    padding-right: 10px;
+}
