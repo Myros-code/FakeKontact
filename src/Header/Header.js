@@ -1,26 +1,22 @@
 import Logo from './Logo/Logo';
 import User from './User/User';
+import Search from './Search/Search';
+import BtnGroup from './BtnGroup/BtnGroup';
 import s from './Header.module.css';
 
-function Header() {
+const Header = () => {
     return (
       <header>
         <div className = {s.wrap}>
           <Logo/>
           <Search/>
+          <BtnGroup/>
           <User/>
         </div>
       </header>
     );
 }
 
-function Search() {
-    return (
-        <div className={s.Search}>
-            <input placeholder="Search"/>
-        </div>
-    );
-}
 
 
 

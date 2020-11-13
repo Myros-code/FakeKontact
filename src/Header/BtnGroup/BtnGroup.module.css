@@ -1,8 +1,12 @@
-.BtnGroup{
+.wrap{
+
+    width: 300px;
 
 }
 .list{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .list__item{
     

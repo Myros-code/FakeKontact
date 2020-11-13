@@ -3,8 +3,8 @@ import avatarImg from '../../img/avatar.png';
 
 function User() {
     return(
-      <div>
-        <a href ="#" className={s.profile__link}>
+      <div className={s.wrap}>
+        <a href ="#" className={s.link}>
           <span className={s.name}>Myros</span>
           <img className={s.avatar} src={avatarImg} alt="avatar"/>
         </a>

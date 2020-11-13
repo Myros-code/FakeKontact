@@ -1,9 +1,17 @@
 
-.profile__link{
+.wrap{
+
+}
+.wrap:hover{
+    background-color: #031f4246;
+}
+.link{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding:  12.7px 12.7px;
 }
+
 .name{
     padding-right: 10px;
 }
